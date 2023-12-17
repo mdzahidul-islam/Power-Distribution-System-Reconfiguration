@@ -1,0 +1,12 @@
+This repository implemented three deep reinforcement learning (RL) algorithms (i.e., PPO, A2C, TRPO) to reconfigure power distribution systems to maximize load supply during disasters.
+
+This repo uses the IEEE 34 test system as an environment to be used with the RL algorithms. The environment is obtained from the repo: https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid. 
+
+A few modifications are made. Specially, a Convolution Neural Network (CNN) is added as a feature extractor. Comprehensive simulation cases are performed in both normal and post-disaster conditions. Additonally, A2C and TRPO algorithms are tested along with PPO. 
+
+Detailed instructions for running the codes are added in two notebook, which are run_normal.ipynb and run_post_fault.ipynb to reconfigure the system during normal and post-disaster conditions, respectively.
+
+Tensorboard is required to view the figures after the simulation.
+
+As the OpenDSS software is supported on Windows PC, this repo requires windows PC to run. The required python libraries are added as requirements.txt.
+
