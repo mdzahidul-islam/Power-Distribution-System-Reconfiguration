@@ -1,0 +1,24 @@
+! sectionalizing switch
+New  SwtControl.sw1 SwitchedObj= Line.L25 Normal=close
+New  SwtControl.sw2 SwitchedObj= Line.L17 Normal=close
+New  SwtControl.sw3 SwitchedObj= Line.L30 Normal=close
+New  SwtControl.sw4 SwitchedObj= Line.L14 Normal=close
+New  SwtControl.sw5 SwitchedObj= Line.L13 Normal=close
+
+New  SwtControl.sw6 SwitchedObj= Line.L33 Normal=open
+New  SwtControl.sw7 SwitchedObj= Line.L34 Normal=open
+New  SwtControl.sw8 SwitchedObj= Line.L35 Normal=open
+New  SwtControl.sw9 SwitchedObj= Line.L36 Normal=open
+/*
+sectional_swt=[{'no':1,'line':'L25'},
+               {'no':2,'line':'L17'},
+               {'no':3,'line':'L30'},
+               {'no':4,'line':'L14'},
+               {'no':5,'line':'L13'}]
+tie_swt=[{'no':1,'from node':'828','from conn':'.1.2.3', 'to node':'832','to conn':'.1.2.3', 'length':21,'code':'303', 'name':'L33'},
+         {'no':2,'from node':'824','from conn':'.1.2.3','to node':'848','to conn':'.1.2.3','length':32,'code':'303', 'name':'L34'},
+         {'no':3,'from node':'840','from conn':'.1.2.3','to node':'848','to conn':'.1.2.3','length':32,'code':'303', 'name':'L35'},
+         {'no':4,'from node':'814','from conn':'.1.2.3','to node':'828','to conn':'.1.2.3','length':32,'code':'303', 'name':'L36'}]
+DER=[{'no':1,'bus':'814','name':'DG1','pf':1,'kW':50,'kVar':0,'model':3, 'kv':24.9}]
+
+*/

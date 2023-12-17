@@ -1,0 +1,2 @@
+! DER=[{'no':1,'bus':'814','name':'DG1','pf':1,'kW':50,'kVar':0,'model':3, 'kv':24.9}]
+New Generator.814_DG bus1=814.1.2.3 Phases=3 conn=wye enabled=yes model=3 kV=24.9 kW=50 kvar=0.00 KVA=24.9  
