@@ -8,5 +8,5 @@ Detailed instructions for running the codes are added in two notebook, which are
 
 Tensorboard is required to view the figures after the simulation.
 
-As the OpenDSS software is supported on Windows PC, this repo requires windows PC to run. The required python libraries are added as requirements.txt.
+As the OpenDSS software is supported on Windows PC, this repo requires windows PC to run. Python 3.8.10 is used for the simulation. The additional required python libraries are added as requirements.txt.
 
