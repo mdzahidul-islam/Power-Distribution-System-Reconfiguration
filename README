@@ -4,7 +4,7 @@ This repo uses the IEEE 34 test system as an environment to be used with the RL 
 
 A few modifications are made. Specially, a Convolution Neural Network (CNN) is added as a feature extractor. Comprehensive simulation cases are performed in both normal and post-disaster conditions. Additonally, A2C and TRPO algorithms are tested along with PPO. 
 
-Detailed instructions for running the codes are added in two notebook, which are run_normal.ipynb and run_post_fault.ipynb to reconfigure the system during normal and post-disaster conditions, respectively. The other files including DGs, DSS_CircuitSetup, DSS_Initialize, ieee34Mod1, IEEELineCodes, openDSSenv34, state_action_reward, switch are related to the RL environment settings.
+Detailed instructions for running the codes are added in two notebooks, which are run_normal.ipynb and run_post_fault.ipynb to reconfigure the system during normal and post-disaster conditions, respectively. The other files including DGs, DSS_CircuitSetup, DSS_Initialize, ieee34Mod1, IEEELineCodes, openDSSenv34, state_action_reward, switch are related to the RL environment settings.
 
 Tensorboard is required to view the figures after the simulation.
 
