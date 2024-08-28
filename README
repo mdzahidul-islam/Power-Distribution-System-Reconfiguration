@@ -1,12 +1,42 @@
-This repository implemented three deep reinforcement learning (RL) algorithms (i.e., PPO, A2C, TRPO) to reconfigure power distribution systems to maximize load supply during disasters.
+# Deep Reinforcement Learning for Power Distribution System Reconfiguration
 
-This repo uses the IEEE 34 test system as an environment to be used with the RL algorithms. The environment is obtained from the repo: https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid. 
+This repository implements three deep reinforcement learning (RL) algorithms: PPO, A2C, and TRPO, to reconfigure power distribution systems and maximize load supply during disasters.
 
-A few modifications are made. Specially, a Convolution Neural Network (CNN) is added as a feature extractor. Comprehensive simulation cases are performed in both normal and post-disaster conditions. Additonally, A2C and TRPO algorithms are tested along with PPO. 
+## Overview
 
-Detailed instructions for running the codes are added in two notebooks, which are run_normal.ipynb and run_post_fault.ipynb to reconfigure the system during normal and post-disaster conditions, respectively. The other files including DGs, DSS_CircuitSetup, DSS_Initialize, ieee34Mod1, IEEELineCodes, openDSSenv34, state_action_reward, switch are related to the RL environment settings.
+- **Environment:** 
+  - The IEEE 34 test system is used as the environment for the RL algorithms.
+  - The environment is sourced from [this repository](https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid) with a few modifications.
+  
+- **Modifications:** 
+  - Added a Convolutional Neural Network (CNN) as a feature extractor.
+  - Conducted comprehensive simulation cases in both normal and post-disaster conditions.
+  - Tested A2C and TRPO algorithms alongside PPO.
 
-Tensorboard is required to view the figures after the simulation.
+## Instructions for Running the Code
 
-As the OpenDSS software is supported on Windows PC, this repo requires windows PC to run. Python 3.8.10 is used for the simulation. The additional required python libraries are added as requirements.txt.
+- **Notebooks:** 
+  - Two Jupyter notebooks are provided for running the simulations:
+    - `run_normal.ipynb`: Reconfigure the system during normal conditions.
+    - `run_post_fault.ipynb`: Reconfigure the system during post-disaster conditions.
 
+- **Environment Setup:**
+  - The following files are related to the RL environment settings:
+    - `DGs.py`, `DSS_CircuitSetup.py`, `DSS_Initialize.py`, `ieee34Mod1.dss`, `IEEELineCodes.dss`, `openDSSenv34.py`, `state_action_reward.py`, `switch.py`.
+
+## Additional Requirements
+
+- **TensorBoard:** 
+  - Required to view the figures generated after the simulation.
+
+- **Operating System:**
+  - As the OpenDSS software is supported on Windows, this repository requires a Windows PC to run.
+
+- **Python Version:**
+  - The code is tested with Python 3.8.10.
+
+- **Dependencies:**
+  - Install the required Python libraries from the `requirements.txt` file.
+  
+  ```bash
+  pip install -r requirements.txt
