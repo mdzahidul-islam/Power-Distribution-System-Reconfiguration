@@ -12,6 +12,9 @@ This repository implements three deep reinforcement learning (RL) algorithms: PP
   - Added a Convolutional Neural Network (CNN) as a feature extractor.
   - Conducted comprehensive simulation cases in both normal and post-disaster conditions.
   - Tested A2C and TRPO algorithms alongside PPO.
+    
+- **Report:**
+  - Please refer to the attached ['project report'](./Project_Report.pdf) for detailed analysis and results.
 
 ## Instructions for Running the Code
 
