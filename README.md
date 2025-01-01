@@ -40,3 +40,7 @@ This repository implements three deep reinforcement learning (RL) algorithms: PP
   
   ```bash
   pip install -r requirements.txt
+
+## Contact
+  - Zahidul Islam ([mi2502@nyu.edu](mi2502@nyu.edu))
+  
