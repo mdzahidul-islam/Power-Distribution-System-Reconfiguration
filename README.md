@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning for Power Distribution System Reconfiguration
 
-This repository implements three deep reinforcement learning (RL) algorithms: PPO, A2C, and TRPO, to reconfigure power distribution systems and maximize load supply during disasters.
+This repository implements three deep reinforcement learning (RL) algorithms: PPO, A2C, and TRPO, to reconfigure power distribution systems and maximize load supply during disasters. This work was part of a class project at NYU.
 
 ## Overview
 
