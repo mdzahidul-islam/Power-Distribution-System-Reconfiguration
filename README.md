@@ -6,7 +6,7 @@ This repository implements three deep reinforcement learning (RL) algorithms: PP
 
 - **Environment:** 
   - The IEEE 34 test system is used as the environment for the RL algorithms.
-  - The environment is sourced from [this repository](https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid) with a few modifications.
+  - The environment is sourced from [this repository](https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid) with a few modifications to make it self sufficient.
   
 - **Modifications:** 
   - Added a Convolutional Neural Network (CNN) as a feature extractor.
